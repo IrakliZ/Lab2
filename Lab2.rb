@@ -103,6 +103,15 @@ def combine_anagrams(words)
   map
 end
 
+def print_hash(h)
+	h.each do |key, value|
+  		value.each do |k,v|
+    		print k + " "
+  		end
+  		print "\n"
+	end
+end
+
 p palindrome?("A man, a plan, a canal -- Panama")  # => true
 p palindrome?("Madam, I'm Adam!")                  # => true
 p palindrome?("Abracadabra")                       # => false (nil is also ok)
@@ -124,4 +133,4 @@ p rps_tournament_winner(tournament)
 
 anagrams = ['cars', 'for', 'potatoes', 'racs', 'four', 'scar', 'creams', 'scream']
 
-p combine_anagrams(anagrams)
+print_hash(combine_anagrams(anagrams))
