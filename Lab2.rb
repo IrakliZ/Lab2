@@ -1,3 +1,8 @@
+# Irakli Zhuzhunashvili
+# 9/11/2013
+# Git Repo: https://github.com/IrakliZ/Lab2
+
+
 # Part1: Hello World
 class HelloWorldClass
   def initialize(name)
